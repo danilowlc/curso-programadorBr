@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        body {
+            font-size: 1.2rem;
+        }
+
+        .card {
+            position: relative;
+            width: 400px;
+            height: 200px;
+            border: 2px solid green;
+            float: left;
+            text-align: center;
+            margin-right: 2px;
+        }
+
+        .c1 {
+            line-height: 200px;
+        }
+
+        .c2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card2{
+            clear: left;
+            border: 2px solid green;
+            float: left;
+            padding: 100px 150px 90px 143px;
+            margin-top: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="c1">
+            Danilo Cunha
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="c2">
+            Danilo Cunha
+        </div>
+    </div>
+    <div class="card2">
+        <div>
+            Danilo Cunha
+        </div>
+    </div>
+</body>
+
+</html>

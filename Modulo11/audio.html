@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+
+<body>
+    <audio id="music" controls>
+        <source src="/media/danilo/DADOS/Musicas/ZEZO/01 - Zezo Potiguar - Nordestino Lutador.mp3" type="audio/mp3">
+    </audio>
+    <button onclick="teste()">Teste</button>
+
+    <script>
+        let song = document.getElementById("music")
+
+        function teste() {
+            song.currentTime += 2
+        }
+    </script>
+</body>
+
+</html>

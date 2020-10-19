@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        body{
+            font-size: 1.2rem;
+        }
+
+        .static{
+            position: static;
+        }
+
+        .relative{
+            position: relative;
+            top: 15px;
+        }
+
+        .fixed{
+            position: fixed;
+            right: 20px;
+        }
+
+        .absolute{
+            position: absolute;
+            right: 10px;
+        }
+
+        .quadrado{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+        .retangulo{
+            width: 100px;
+            height: 500px;
+            margin-top: 10px;
+        }
+
+        .ret-center{
+            width: 200px;
+            height: 500px;
+            text-align: center;
+            margin: auto;
+            overflow: auto;
+        }
+
+        .sticky{
+            position: sticky;
+            top: 0;
+        }
+
+        .bg-red{
+            background-color: red;
+        }
+        .bg-blue{
+            background-color: blue;
+        }
+        .bg-yellow{
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="ret-center bg-blue">
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-yellow sticky"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+
+    </div>
+
+    <div class="static quadrado bg-blue">
+
+    </div>
+    <div class="relative quadrado bg-red">
+
+    </div>
+    <div class="static retangulo bg-yellow">
+
+    </div>
+    <div class="absolute retangulo bg-yellow">
+
+    </div>
+    <div class="relative retangulo bg-yellow">
+
+    </div>
+
+    
+
+</body>
+</html>

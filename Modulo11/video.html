@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <style>
+        .container {
+            position: relative;
+            width: 640px;
+            height: 360px;
+        }
+        
+        .video {
+            width: 100%;
+        }
+        
+        .controler {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            opacity: 0;
+        }
+        
+        .btn {
+            position: relative;
+            width: 40px;
+            padding: 10px;
+            top: 100%;
+            transform: translateY(-100%);
+        }
+        
+        .controler:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <video class="video" id="video1" src="/media/danilo/DADOS/Filmes/Bohemian Rhapsody 2018 1080p/Bohemian Rhapsody 2018 1080p.mkv"></video>
+        <div class="controler">
+            <img class="btn" onclick="backward15()" src="iconfinder_btn_15_Forward_4719305.png" alt="">
+            <img class="btn" onclick="iniciar()" src="iconfinder_btn_Play_4698916.png" alt="">
+            <img class="btn" onclick="pausar()" src="iconfinder_btn_Pause_4719317.png" alt="">
+            <img class="btn" onclick="stop()" src="iconfinder_btn_Stop_4698925.png" alt="">
+            <img class="btn" onclick="forward15()" src="iconfinder_btn_15_Backward_4719304.png" alt="">
+            <img class="btn" onclick="velocidadeMenos()" src="iconfinder_btn_Backward_4698906.png" alt="">
+            <img class="btn" onclick="velocidadeMais()" src="iconfinder_btn_Forward_4698910.png" alt="">
+            <img class="btn" onclick="reset_velocidade()" src="iconfinder_btn_Repeat_One_4719312.png" alt="">
+            <img class="btn" onclick="telaCheia()" src="iconfinder_btn_Fullscreen_Enter_4698911.png" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

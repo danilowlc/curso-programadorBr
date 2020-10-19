@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        .paragrafo {
+            color: red;
+        }
+        
+        h1 {
+            background-color: red;
+        }
+        
+        div {
+            display: inline-block;
+            padding: 20px;
+            font-size: 2rem;
+            background-color: cornflowerblue;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Titulo</h1>
+    <p class="paragrafo" id="p1">Paragrafo</p>
+    <p class="paragrafo">Paragrafo2</p>
+    <p>Paragrafo3</p>
+
+    <h1 onclick="h1click()">Clique em mim</h1>
+    <input id="texto" type="text" onchange="changeH1(this)">
+    <input id="texto1" type="text" oninput="changeH1(this)">
+
+    <div onclick="hideH1()">Click</div>
+
+    <script src="eventos.js"></script>
+</body>
+
+</html>

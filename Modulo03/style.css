@@ -1,0 +1,68 @@
+#paragrafos{
+    color: black;
+    background-color: cyan;
+    background-image: url(img/sorvete_chocolate.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#titulo{
+    color: blue;
+}
+
+.texto_verde{
+    color: green;
+}
+
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm{
+    background-color: red;
+    width: 10mm;
+    height: 10mm;
+}
+
+#in{
+    background-color: green;
+    width: 1in;
+    height: 1in;
+}
+
+#px{
+    background-color: rgb(14, 14, 1);
+    width: 10px;
+    height: 10px;
+}
+
+#pt{
+    background-color: blueviolet;
+    width: 10pt;
+    height: 10pt;
+}
+
+#pc{
+    background-color: rgb(109, 35, 6);
+    width: 1pc;
+    height: 1pc;
+}
+
+.container{
+    width: 50vw;
+    /* background: red; */
+}
+
+.inside{
+    width: 100px;
+    /* background: blue; */
+}
+
+.borda{
+    border-width: 10px 1px 5px 20px;
+    border-color: red green blue yellow;
+    border-style: solid;
+}

@@ -1,0 +1,34 @@
+.container{
+    background: black;
+    padding: 10px 20px 20px 50px;
+
+}
+
+.content{
+    background-image: url(img/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: inherit;
+    width: 400px;
+    height: 200px;
+}
+
+.redes{
+    font-size: 25px;
+}
+
+#insta{
+    list-style-image: url(img/Insta.png);
+}
+
+#twitter{
+    list-style-image: url(img/Twitter.png);
+}
+
+#youtuber{
+    list-style-image: url(img/Youtube.png);
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
